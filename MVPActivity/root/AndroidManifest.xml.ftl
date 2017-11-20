@@ -2,6 +2,7 @@
 
     <application>
         <activity android:name="${packageName}.impl.${activityClass}"
+				  android:screenOrientation="portrait"
             <#if isNewProject>
             android:label="@string/app_name"
             </#if>>           
