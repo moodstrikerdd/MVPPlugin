@@ -10,7 +10,7 @@ import android.view.View;
 
 public class ${fragmentClass} extends BaseFragment<${iVName}, ${pName}> implements ${iVName} {
 
-    public static ${fragmentClass} newInstance(String param1) {
+    public static ${fragmentClass} newInstance() {
         ${fragmentClass} fragment = new ${fragmentClass}();
         Bundle args = new Bundle();
         fragment.setArguments(args);
